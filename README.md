@@ -22,7 +22,6 @@ A full-stack e‑commerce web application built with the **MERN stack**—MongoD
 * **Secure REST APIs** using Express.js and MongoDB with Mongoose.
 * **JWT Authentication & Authorization** middleware to protect routes.
 * **Server-side Bcrypt** to hash and verify passwords.
-* **Optimized Queries** that reduce server response time by \~30%.
 * **Error Handling** & input validation to ensure stable behavior.
 
 ## 🚀 Tech Stack
@@ -48,16 +47,15 @@ git clone https://github.com/harleenkaur2003/mern-stack-ecommerce.git
 cd mern-stack-ecommerce
 
 # Backend setup
-cd backend
+cd server
 npm install
 # Create .env file:
 # MONGO_URI=your_mongo_uri
 # JWT_SECRET=your_jwt_secret
-# (Any other applicable secrets)
 npm run dev
 
 # Frontend setup
-cd ../frontend
+cd ../client
 npm install
 # Create .env file:
 # REACT_APP_API_URL=http://localhost:5000/api
@@ -70,16 +68,15 @@ npm start
 * Passwords are hashed using **Bcrypt** before storage.
 * **JWT** tokens provide secure session management.
 * **Role-based access control** ensures only admins can manage products/orders.
-* **Optimized database queries** reduce response latency by \~30%.
 
 ## 🛠 Roadmap & Future Enhancements
 
-* 🔗 **Payment integration** (Stripe, Razorpay, or PayPal)
-* 🐳 **Dockerization** for containerized deployment
-* ☁️ **AWS deployment** (ECS, EC2 or Lambda, RDS)
-* ✅ **Email notifications** for orders and status updates
-* ⚡️ **Additional user features** like password reset, wishlist
-* 📄 **Unit & integration tests** to improve reliability
+*  **Payment integration** (Stripe, Razorpay, or PayPal)
+*  **Dockerization** for containerized deployment
+*  **AWS deployment** (ECS, EC2 or Lambda, RDS)
+*  **Email notifications** for orders and status updates
+*  **Additional user features** like password reset, wishlist
+*  **Unit & integration tests** to improve reliability
 
 ## 🎯 Usage
 
